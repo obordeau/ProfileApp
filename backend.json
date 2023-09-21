@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": {
+        "type": "object",
+        "properties": {
+            "bio": {
+                "type": "string"
+            },
+            "image": {
+                "type": "string",
+                "format": "uri"
+            },
+            "legend": {
+                "type": "string"
+            },
+            "localisation": {
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "bio",
+            "image",
+            "legend",
+            "localisation",
+            "name"
+        ],
+        "additionalProperties": false
+    }
+}

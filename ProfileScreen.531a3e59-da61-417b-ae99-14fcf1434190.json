@@ -108,7 +108,7 @@
             "properties": {
                 "Height": 50,
                 "Width": 381,
-                "Visible": true,
+                "Visible": false,
                 "X": 1,
                 "Y": 76,
                 "RelativeX": 1,
@@ -124,7 +124,7 @@
                     "position": "absolute",
                     "left": "16.8%",
                     "top": "14.700148094897864%",
-                    "display": "flex",
+                    "display": "none",
                     "backgroundColor": "rgba(255, 255, 255, 1)"
                 },
                 "resizeMode": "contain",
